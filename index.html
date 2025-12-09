@@ -8,70 +8,67 @@
     <style>
         body {
             margin: 0;
-            padding: 40px;
+            font-family: Arial, sans-serif;
             background: #000;
             color: #fff;
-            font-family: Arial, sans-serif;
             text-align: center;
         }
 
         .container {
-            max-width: 750px;
+            padding-top: 40px;
+            max-width: 900px;
             margin: auto;
-            padding: 40px;
-            background: #0f0f0f;
-            border: 1px solid #222;
-            border-radius: 16px;
         }
 
         .logo img {
             width: 140px;
             height: auto;
-            margin-bottom: 20px;
         }
 
         .seal img {
             width: 180px;
-            height: auto;
+            opacity: 0.85;
             margin-top: 20px;
         }
 
-        .title {
+        h1 {
+            margin-top: 30px;
             font-size: 26px;
-            font-weight: bold;
-            margin-top: 10px;
         }
 
-        .code {
+        h2 {
             margin-top: 10px;
-            font-size: 18px;
+            font-size: 20px;
             opacity: 0.8;
         }
 
-        .text {
-            margin-top: 25px;
+        .text-box {
+            margin-top: 30px;
             font-size: 16px;
             line-height: 1.8;
             opacity: 0.9;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .preview-box {
             width: 100%;
+            max-width: 700px;
             height: 260px;
-            background: #1a1a1a;
-            border: 1px dashed #444;
+            background: #111;
+            border: 1px dashed #555;
             border-radius: 14px;
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-top: 30px;
+            margin: 30px auto;
         }
 
         .preview-box img {
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            border-radius: 12px;
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 10px;
         }
 
         footer {
@@ -91,29 +88,27 @@
             <img src="logo.png" alt="SporTop10 Logo">
         </div>
 
-        <!-- Title -->
-        <h1 class="title">Camp Nou Evolution – Certificate of Authenticity</h1>
-
-        <!-- Code -->
-        <h2 class="code">CNEV – 1959 – 001</h2>
-
         <!-- Seal -->
         <div class="seal">
             <img src="seal.png" alt="Official Seal">
         </div>
 
+        <!-- Title -->
+        <h1>Camp Nou Evolution – Certificate of Authenticity</h1>
+        <h2>CNEV – 1959 – 001</h2>
+
         <!-- Text -->
-        <p class="text">
+        <div class="text-box">
             This digital certificate verifies the authenticity of this limited edition collectible.<br><br>
             The series <strong>Camp Nou Evolution Vault</strong> is officially registered under
             <strong>SporTop10</strong>.<br><br>
             Only <strong>1500 pieces</strong> were released globally in <strong>2025</strong>.
-        </p>
+        </div>
 
         <!-- Sticker Preview -->
-        <h2 class="code">Sticker Preview</h2>
+        <h2>Sticker Preview</h2>
         <div class="preview-box">
-            <img src="stickers.jpg" alt="Sticker Preview">
+            <img src="sticker.jpg" alt="Sticker Preview">
         </div>
 
     </div>
@@ -121,5 +116,6 @@
     <footer>
         © 2025 SporTop10 — All Rights Reserved
     </footer>
+
 </body>
 </html>
