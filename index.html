@@ -3,89 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SporTop10 – CNEV 1959-001</title>
+    <title>Camp Nou Evolution – Certificate of Authenticity</title>
 
     <style>
         body {
-            margin: 0;
-            padding: 0;
             background: #0d0d0d;
             color: #e6e6e6;
             font-family: "Segoe UI", sans-serif;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+            padding: 40px;
+            text-align: center;
         }
 
-        .card {
-            background: #111;
-            padding: 35px;
-            border-radius: 18px;
-            width: 90%;
+        .container {
             max-width: 750px;
-            text-align: center;
-            border: 1px solid #333;
-            box-shadow: 0 0 15px rgba(255, 215, 0, 0.12);
+            margin: auto;
+            padding: 40px;
+            background: #111;
+            border: 1px solid #222;
+            border-radius: 18px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.7);
         }
 
         .logo {
-            width: 120px;
-            margin-bottom: 15px;
+            width: 160px;
+            margin-bottom: 20px;
         }
 
         .seal {
-            width: 140px;
-            margin: 20px auto;
-            display: block;
+            width: 160px;
             opacity: 0.9;
+            margin: 20px auto;
         }
 
-        h1 {
+        .title {
             font-size: 26px;
-            margin-bottom: 10px;
-            color: #f5c644;
+            font-weight: 600;
+            margin-top: 10px;
+            color: #f2f2f2;
             letter-spacing: 1px;
         }
 
-        p {
-            line-height: 1.6;
-            font-size: 16px;
-            color: #d9d9d9;
+        .section-title {
+            font-size: 18px;
+            margin-top: 30px;
+            margin-bottom: 8px;
+            color: #bbbbbb;
+            text-transform: uppercase;
+            letter-spacing: 1px;
         }
 
-        .sticker-box {
-            margin-top: 25px;
-            padding: 15px;
-            border: 1px dashed #555;
-            border-radius: 12px;
-            color: #888;
+        .text {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #cfcfcf;
+            margin-bottom: 30px;
+        }
+
+        .preview-box {
+            width: 100%;
+            height: 260px;
+            background: #1a1a1a;
+            border: 1px dashed #444;
+            border-radius: 14px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #555;
+            font-size: 15px;
         }
     </style>
 </head>
 
 <body>
-    <div class="card">
-        
-        <!-- LOGO -->
-        <img src="logo.png" alt="Logo" class="logo">
+    <div class="container">
 
-        <!-- SEAL -->
-        <img src="seal.png" alt="Verification Seal" class="seal">
+        <!-- Logo -->
+        <img src="SporTop10.png" alt="SporTop10 Logo" class="logo">
 
-        <h1>CNEV – 1959 – 001</h1>
+        <!-- Title -->
+        <h1 class="title">Camp Nou Evolution – Certificate of Authenticity</h1>
 
-        <p>
-            This digital certificate verifies the authenticity of this limited edition item.  
-            The series **Camp Nou Evolution Vault** is officially registered under SporTop10.  
-            Only **1500 pieces** were released globally in **2025**.
+        <!-- Version Code -->
+        <h2 class="section-title">CNEV – 1959 – 001</h2>
+
+        <!-- Seal -->
+        <img src="03.png" alt="Verification Seal" class="seal">
+
+        <!-- Text -->
+        <p class="text">
+            This digital certificate verifies the authenticity of this limited edition collectible.<br><br>
+            The series <strong>Camp Nou Evolution Vault</strong> is officially registered under
+            <strong>SporTop10</strong>.<br><br>
+            Only <strong>1500 pieces</strong> were released globally in <strong>2025</strong>.
         </p>
 
-        <div class="sticker-box">
-            Sticker Preview Area  
-            <br>(You can upload sticker.jpg later)
+        <!-- Sticker Preview -->
+        <h2 class="section-title">Sticker Preview</h2>
+        <div class="preview-box">
+            <p>(Sticker preview will appear here — upload sticker.jpg)</p>
         </div>
 
     </div>
 </body>
+
 </html>
