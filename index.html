@@ -3,50 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SporTop10 - Camp Nou</title>
+    <title>Camp Nou Evolution – Certificate of Authenticity</title>
+
     <style>
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
+            padding: 40px;
             background: #000;
             color: #fff;
+            font-family: Arial, sans-serif;
             text-align: center;
         }
+
         .container {
-            padding-top: 40px;
+            max-width: 750px;
+            margin: auto;
+            padding: 40px;
+            background: #0f0f0f;
+            border: 1px solid #222;
+            border-radius: 16px;
         }
+
         .logo img {
-            width: 120px;
+            width: 140px;
             height: auto;
+            margin-bottom: 20px;
         }
-        .seal {
-            margin-top: 20px;
-        }
+
         .seal img {
             width: 180px;
             height: auto;
-            opacity: 0.85;
+            margin-top: 20px;
         }
 
-        /* صندوق الاستيكر */
-        .sticker-box {
-            width: 90%;
-            max-width: 600px;
-            height: 240px;
-            margin: 30px auto 0;
-            background: #111;
+        .title {
+            font-size: 26px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .code {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        .text {
+            margin-top: 25px;
+            font-size: 16px;
+            line-height: 1.8;
+            opacity: 0.9;
+        }
+
+        .preview-box {
+            width: 100%;
+            height: 260px;
+            background: #1a1a1a;
             border: 1px dashed #444;
             border-radius: 14px;
             display: flex;
             justify-content: center;
             align-items: center;
-            overflow: hidden;
+            margin-top: 30px;
         }
 
-        .sticker-box img {
+        .preview-box img {
             width: 100%;
             height: 100%;
-            object-fit: cover;
+            object-fit: contain;
+            border-radius: 12px;
         }
 
         footer {
@@ -57,6 +82,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
 
@@ -65,13 +91,28 @@
             <img src="logo.png" alt="SporTop10 Logo">
         </div>
 
+        <!-- Title -->
+        <h1 class="title">Camp Nou Evolution – Certificate of Authenticity</h1>
+
+        <!-- Code -->
+        <h2 class="code">CNEV – 1959 – 001</h2>
+
         <!-- Seal -->
         <div class="seal">
             <img src="seal.png" alt="Official Seal">
         </div>
 
+        <!-- Text -->
+        <p class="text">
+            This digital certificate verifies the authenticity of this limited edition collectible.<br><br>
+            The series <strong>Camp Nou Evolution Vault</strong> is officially registered under
+            <strong>SporTop10</strong>.<br><br>
+            Only <strong>1500 pieces</strong> were released globally in <strong>2025</strong>.
+        </p>
+
         <!-- Sticker Preview -->
-        <div class="sticker-box">
+        <h2 class="code">Sticker Preview</h2>
+        <div class="preview-box">
             <img src="stickers.jpg" alt="Sticker Preview">
         </div>
 
