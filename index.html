@@ -13,62 +13,68 @@
             color: #fff;
             text-align: center;
 
-            /* لجعل كل شيء بوسط الشاشة */
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
+            padding: 20px;
         }
 
+        /* إطار جميل حول المحتوى */
         .container {
             max-width: 900px;
-            margin: auto;
-            padding-bottom: 40px;
+            width: 95%;
+            padding: 40px 20px;
+            border: 1px solid #333;
+            border-radius: 14px;
+            background: #0a0a0a;
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.05);
         }
 
         .logo img {
-            width: 300px; /* الشعار أكبر */
+            width: 360px; /* الشعار أكبر */
             height: auto;
         }
 
         .title-text {
             margin-top: 25px;
-            font-size: 24px;
+            font-size: 26px;
             font-weight: bold;
         }
 
         .sub-title-text {
             margin-top: 5px;
-            font-size: 19px;
+            font-size: 20px;
             opacity: 0.9;
         }
 
         .seal img {
-            width: 180px;
+            width: 200px; /* كبرنا الختم قليلاً */
             height: auto;
             margin-top: 25px;
-            opacity: 0.9;
+            opacity: 0.95;
         }
 
         .description {
             margin-top: 30px;
-            font-size: 16px;
-            line-height: 1.6;
-            padding: 0 20px;
-            opacity: 0.85;
+            font-size: 17px;
+            line-height: 1.7;
+            padding: 0 25px;
+            opacity: 0.9;
         }
 
         .sticker img {
-            width: 260px;
-            margin-top: 35px;
+            width: 420px; /* تكبير الاستيكر */
+            margin-top: 40px;
             height: auto;
+            border-radius: 10px;
         }
 
         footer {
-            margin-top: 40px;
-            padding: 20px;
+            margin-top: 35px;
+            padding: 10px;
             font-size: 14px;
-            opacity: 0.6;
+            opacity: 0.55;
         }
     </style>
 </head>
@@ -82,7 +88,7 @@
             <img src="logo.png" alt="SporTop10 Logo">
         </div>
 
-        <!-- 2 + 3 النص الرئيسي -->
+        <!-- 2 + 3 العناوين -->
         <div class="title-text">Camp Nou Evolution – Certificate of Authenticity</div>
         <div class="sub-title-text">CNEV – 1959 – 001</div>
 
